@@ -1,0 +1,18 @@
+{
+    "name": "mahmoud/phpint",
+    "description": "a course of php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mahmoud",
+            "email": "mahmoudabdelah08@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "Framework\\":"src/Framework",
+            "App\\":"src/App"
+        }
+    }
+}
